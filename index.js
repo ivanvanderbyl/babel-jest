@@ -1,4 +1,5 @@
 var babel = require("babel-core");
+require('babel-core/polyfill');
 
 module.exports = {
   process: function (src, filename) {
